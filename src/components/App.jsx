@@ -1,22 +1,11 @@
-import React, {useState} from "react";
-
+import React from 'react'
 
 function App() {
-
-  const [count, setCount] = useState(21); 
-  
-  function inc() {
-      setCount(12)
-  }
-  
-  return (
-    <div className="container">
-      <h1>{count}</h1>
-      <button onClick={inc} >+</button>
-    </div>
-  )
+ return (
+     <div>
+         <h1>hi</h1>
+     </div>
+ )
 }
 
-
-
-export default App;
+export default App
