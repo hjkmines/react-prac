@@ -8,4 +8,4 @@ function Header() {
     )
 }
 
-epxort default Header 
+export default Header 
